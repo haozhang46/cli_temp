@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-// require('./utils/version')
-// require('v8-compile-cache')
-const chalk = require('chalk')
 const commander = require('commander')
 const program = commander
 program.version('0.0.1').usage('<command> [options]');
